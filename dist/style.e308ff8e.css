@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700&display=swap');
+
+body {
+	margin:0;
+	padding: auto;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+.menu_home {
+	width: 99vw;
+	height: 30px;
+	background: #9ac673;
+	color: black;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+}
+
+.menu_home > p {
+	font-size: 12px;
+	margin-left: 30px;
+	margin-top: 3px;
+} 
+
+.social_icon {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.social_icon > a {
+	margin-right: 25px;
+	margin-top: 3px;
+}
+
+.social_icon > a > img {
+	width:12px;
+}
+
+.menu_hannah {
+	background: #FAF8F2;
+	display: grid;
+	grid-template-columns: repeat(2, 2fr);
+	width: 99vw;
+	border-bottom: 1px solid #F1EFE8;
+}
+
+.menu_hannah  > p {
+	margin-left: 30px;
+	font-size: 30px;
+}
+
+.menu {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.menu > a {
+	text-decoration: none;
+	color: #373232;
+	margin-right: 20px;
+}
+
+.menu > a:hover {
+	/*text-decoration: underline;*/
+	border-bottom: 1px solid #6D2E2E;
+} 
+
+.container {
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.jumbotron {	
+	margin-top: 50px;
+	height: 600px;
+	background-image: url("/feuille.86c5162d.jpeg");
+	background-size: cover;
+	display: flex;
+	flex-direction:column;
+}
+
+.impression_photo {
+	width: 1200px;
+	height: 500px;
+	opacity: 0.6;
+}
+
+.text {
+	margin: 2% 10%;
+	width: 50%;
+	text-align: left;
+}
+
+.text > h1 {
+	font-size: 50px;
+} 
+.btns {
+	margin: 0 10%;
+}
+
+.btn {
+	border-radius: 30px;
+	background: black;
+	color: #fefefe;
+	height: 40px;
+	width: 200px;
+	font-family: 'Source Sans Pro', sans-serif;
+
+}
+
+.blog{
+	margin-top: 50px;
+	display: flex;
+	justify-content: space-between;
+}
+
+ .blog_un, .blog_deux, .blog_trois {
+	background-image: url("/feuille.86c5162d.jpeg");
+	background-size: cover;
+	width: 400px;
+	height: 200px;
+	opacity: 0.5;
+}
+
+.blog_titre {
+	margin: 5px;
+	border: 2px solid #fefe;
+	text-align: center;
+	height: 185px;
+}
+
+.post {
+	background-color: #EEEDE9;
+	height: 600px;
+}
+
+.descriptif {
+	text-align: center;
+
+}
+
+.tous_posts {
+	margin-top: 50px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	text-align: center;
+}
+
+.feuille {
+	width: 400px;
+}
+
+footer {
+	background: black;
+	height: 200px;
+	color: white;
+}
+
+.footer_container {
+
+	display: flex;
+	justify-content: space-between;
+
+}
+.footer_container > div {
+	margin-top: 50px;
+	width: 400px;
+}
+
+h4 {
+	color: #9ac673;
+}
+
+/*# sourceMappingURL=/style.e308ff8e.css.map */
